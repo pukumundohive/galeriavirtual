@@ -108,6 +108,42 @@
     <p>¡Bienvenidos a nuestra galería virtual!</p>
   </section>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centrar iframe</title>
+  <style>
+    /* Estilo para centrar el contenido */
+    .center-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centra horizontalmente */
+      justify-content: center; /* Centra verticalmente (opcional) */
+      margin-top: 20px; /* Espaciado superior */
+    }
+
+    /* Estilo para el iframe */
+    iframe {
+      border: none; /* Elimina el borde predeterminado del iframe */
+      max-width: 100%; /* Asegura que el iframe sea responsivo */
+      height: auto; /* Altura ajustable según el ancho */
+    }
+
+    /* Estilo para el enlace de "Powered by emaze" */
+    a img {
+      margin-top: 10px; /* Espaciado entre el iframe y el enlace */
+    }
+  </style>
+</head>
+<body>
+  <!-- Contenedor para centrar -->
+  <div class="center-container">
+    <!-- Iframe -->
+    <iframe src="https://app.emaze.com/@ALFRIRWWR/uneartereveron1" width="960px" height="540px" seamless webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    
+    <!-- Enlace de "Powered by emaze" -->
+    <a href="https://www.emaze.com" target="_blank">
+      <img src="//resources.emaze.com/mypres/css/images/embed.png" alt="Powered by emaze" style="border: none;">
+    </a>  
+
   <!-- Galería de Arte -->
   <section class="gallery">
     <div class="art-piece" data-aos="zoom-in">
@@ -125,11 +161,7 @@
 	   
   </section>
   
-  
-  <iframe src="https://app.emaze.com/@ALFRIRWWR/uneartereveron1" width="960px" height="540px" seamless webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><a href="https://www.emaze.com" target="_blank"><img src="//resources.emaze.com/mypres/css/images/embed.png" alt="Powered by emaze" style="margin: 5px; border: none;"></a>
-
-
-  <!-- Enlaces Relacionados -->
+   <!-- Enlaces Relacionados -->
   <section class="links" data-aos="fade-up">
     <h2>Enlaces de Interés</h2>
     <a href="https://unearte.edu.ve/" target="_blank">UNEARTE</a>
